@@ -1,0 +1,20 @@
+﻿<Page x:Class="HorSchool.Page13"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HorSchool"
+      mc:Ignorable="d"
+      Title="Page13" Width="947" Height="473">
+
+    <Canvas Background="#AA9090" Height="550" Width="950">
+        <Button Click="Button_Click_2" FontSize="20" Background="#FFF0F0" Content="о преподавателях" Canvas.Left="72" Canvas.Top="41"/>
+        <Button Click="Button_Click_3" FontSize="14" Background="#AA9090" Content="назад" Canvas.Left="52" Canvas.Top="483"/>
+        <Image Height="334" Canvas.Left="560" Stretch="Fill" Source="/teachers.jpg" Canvas.Top="108" Width="333"/>
+        <Button Content="узнать больше" FontSize="20" Background="#FFF0F0" Canvas.Left="266" Canvas.Top="125" Width="149" Click="Button_Click"/>
+        <ComboBox Name="combo" Canvas.Left="72" Canvas.Top="124" Width="140" Height="32"/>
+        <ComboBox Name="com" Canvas.Left="72" Canvas.Top="180" Width="140" Height="32"/>
+        <Button Click="Button_Click_4" FontSize="20" Background="#FFF0F0" Content="узнать расписание" Canvas.Left="265" Canvas.Top="180" Height="32" Width="180"/>
+
+    </Canvas>
+</Page>

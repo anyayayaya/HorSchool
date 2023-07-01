@@ -1,0 +1,22 @@
+﻿<Page x:Class="HorSchool.Page6"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HorSchool"
+      mc:Ignorable="d" 
+      d:DesignHeight="450"
+      Title="Page6" Width="949">
+
+    <Canvas Background="#AA9090" Height="400" Width="950">
+        <Button FontSize="20" Background="#FFF0F0" Content="назад" Canvas.Left="71" Canvas.Top="34" Width="114" Click="Button_Click_2"/>
+        <Button FontSize="20" Background="#FFF0F0" Content="сохранить редактирование" Canvas.Left="252" Canvas.Top="30" Width="291" Click="Button_Click_1"/>
+        <Label FontSize="20" Content="Дата:" Canvas.Left="69" Canvas.Top="163"/>
+        <TextBox x:Name="director" Canvas.Left="212" Canvas.Top="169" Text="" TextWrapping="Wrap" Width="113" Height="25"/>
+        <Label FontSize="20" Content="Место:" Canvas.Left="71" Canvas.Top="222"/>
+        <TextBox x:Name="open" Canvas.Left="212" Canvas.Top="234" Text="" TextWrapping="Wrap" Width="113" Height="25"/>
+        <Label FontSize="20" Content="Название:" Canvas.Left="71" Canvas.Top="104"/>
+        <TextBox x:Name="name" FontSize="20" Canvas.Left="212" Canvas.Top="110" Text="" TextWrapping="Wrap" Width="113" Height="25"/>
+        <Button Click="Button_Click" FontSize="20" Background="#FFF0F0" Content="концерты" Canvas.Left="605" Canvas.Top="30" Width="107"/>
+    </Canvas>
+</Page>
